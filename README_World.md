@@ -41,11 +41,18 @@
 ---
 ## Примеры генерации Part/1
 
-1. 300x300, 2 Октавы, Шкала 75  
+1. 300x300, 2 Октавы, Шкала 75
+
 ![map2](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map1.jpg)
+
 2. 300x300, 4 Октавы, Шкала 75
+
 ![map](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map2.jpg)
+
 3. 300x300 , 10 Октав , Шкала 75
+
 ![map2](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map3.jpg)
+
 4. 300x300 , 10 Октав , Шкала 500
+
 ![map2](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map4.jpg)
