@@ -229,7 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 2
-  smoothTime: 0.25
+  smoothTime: 1
   cam: {fileID: 519420031}
 --- !u!1 &1435309177
 GameObject:
@@ -240,6 +240,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1435309179}
+  - component: {fileID: 1435309181}
   - component: {fileID: 1435309180}
   m_Layer: 0
   m_Name: GrigManager
@@ -272,19 +273,61 @@ MonoBehaviour:
   m_GameObject: {fileID: 1435309177}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63e8783085bc0cd498b69ceb8194ada4, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c4fb3f27efb54a44bfc5a472b6e3fb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab_plains: {fileID: 169304527989925647, guid: 84d7bfa3c8432e142b0e10d80e544653, type: 3}
-  prefab_forest: {fileID: 1532786409445653441, guid: bc846b8fc4037fe4ab4afd9c5f15c847, type: 3}
-  prefab_black: {fileID: 4368919563412994551, guid: 7c4411c0679a40543bf05462a86e414e, type: 3}
-  prefab_green: {fileID: 2881770954905345954, guid: 4da6530e62cd79d4f84e245282f4b0b1, type: 3}
-  gridHeight: 100
-  gridWidth: 100
-  tileSize: 0
-  magnification: 19.7
-  x_offset: 0
-  y_offset: 0
+  terrainLevel:
+  - name: LowWater
+    minLevel: 0
+    maxLevel: 0.1
+    prefab_tile: {fileID: 6044012226512309712, guid: 6f4b4f5d22c25e446812f003b310b6fa, type: 3}
+  - name: Water
+    minLevel: 0.1
+    maxLevel: 0.2
+    prefab_tile: {fileID: 2881770954905345954, guid: 4da6530e62cd79d4f84e245282f4b0b1, type: 3}
+  - name: SandWater
+    minLevel: 0.2
+    maxLevel: 0.25
+    prefab_tile: {fileID: 8085377871114428085, guid: 9359062ce5315cc44a75a04c32d99fc4, type: 3}
+  - name: Sand
+    minLevel: 0.25
+    maxLevel: 0.3
+    prefab_tile: {fileID: 8358772795959084678, guid: d9311b88e8dae044f8713391157d27b8, type: 3}
+  - name: Ground
+    minLevel: 0.3
+    maxLevel: 0.4
+    prefab_tile: {fileID: 4368919563412994551, guid: 7c4411c0679a40543bf05462a86e414e, type: 3}
+  - name: Ground2
+    minLevel: 0.4
+    maxLevel: 0.5
+    prefab_tile: {fileID: 1378564872320843561, guid: e656aa264a92f4743bee5d978ba2e1bb, type: 3}
+  - name: Green
+    minLevel: 0.5
+    maxLevel: 0.8
+    prefab_tile: {fileID: 1532786409445653441, guid: bc846b8fc4037fe4ab4afd9c5f15c847, type: 3}
+  - name: Forest
+    minLevel: 0.8
+    maxLevel: 1
+    prefab_tile: {fileID: 169304527989925647, guid: 84d7bfa3c8432e142b0e10d80e544653, type: 3}
+--- !u!114 &1435309181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435309177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ab70c23f70de0f4dbaecf583f45d728, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridHeight: 300
+  gridWidth: 300
+  scale: 45
+  octaves: 10
+  persistence: 0.5
+  lacunarity: 2
+  offset: {x: 0, y: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

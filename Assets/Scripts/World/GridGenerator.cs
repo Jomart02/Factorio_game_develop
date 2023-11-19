@@ -12,6 +12,8 @@ public class GridGenerator : MonoBehaviour {
     public GameObject prefab_forest;
     public GameObject prefab_black;
     public GameObject prefab_green;
+    public GameObject prefab_green2;
+    public GameObject prefab_green3;
 
     public int gridHeight = 10;
     public int gridWidth = 10;
@@ -49,6 +51,8 @@ public class GridGenerator : MonoBehaviour {
         tileset.Add(1, prefab_forest);
         tileset.Add(2, prefab_black);
         tileset.Add(3, prefab_green);
+        tileset.Add(4, prefab_green2);
+        tileset.Add(5, prefab_green3);
 
     }
 
@@ -105,7 +109,6 @@ public class GridGenerator : MonoBehaviour {
     void CreateTile(int tile_id, int x, int y) {
         /** Creates a new tile using the type id code, group it with common
             tiles, set it's position and store the gameobject. **/
-
         GameObject tile_prefab = tileset[tile_id];
         GameObject tile_group = tile_groups[tile_id];
         GameObject tile = Instantiate(tile_prefab, tile_group.transform);

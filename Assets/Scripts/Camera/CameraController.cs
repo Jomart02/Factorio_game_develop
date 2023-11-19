@@ -2,9 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-using UnityEngine;
-
 public class CameraController : MonoBehaviour {
     private float zoom;
     private float zoomMultiplier = 10f;
