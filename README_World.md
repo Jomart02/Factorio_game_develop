@@ -15,7 +15,7 @@
 ---
 ### PerlinGenerate - скрипт для генерации мира:
 
-![Perlin](C:\Programming\Unity\Game\Factorio\ImageGit\PerlinGenerate.jpg)
+![Perlin](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/PerlinGenerate.jpg)
 
 - **Grid Height/Width** - размеры карты;
 - **Scale (Шкала/Масштаб)** - управляет уровнем шума. При уменьшении масштаба шум уменьшается. Принимая во внимание, что увеличение масштаба приведет к увеличению шума;
@@ -26,7 +26,7 @@
 ---
 ### TileWorld - скрипт для настройки отрисовки мира:
 
-![Tile](C:\Programming\Unity\Game\Factorio\ImageGit\TileWorld.jpg)
+![Tile](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/TileWorld.jpg)
 
 Скрипт содержит изменяемый массив структур TerrainLevel. 
 Структура состоит из:
@@ -42,11 +42,11 @@
 ## Примеры генерации Part/1
 
 1. 300x300, 2 Октавы, Шкала 75  
-![map2](C:\Programming\Unity\Game\Factorio\ImageGit\map2.jpg)
+![map2](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map1.jpg)
 2. 300x300, 4 Октавы, Шкала 75  
-![map](C:\Programming\Unity\Game\Factorio\ImageGit\map1.jpg)
+![map](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map2.jpg)
 
 3. 300x300 , 10 Октав , Шкала 75
-![map2](C:\Programming\Unity\Game\Factorio\ImageGit\map3.jpg)
+![map2](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map3.jpg)
 4. 300x300 , 10 Октав , Шкала 500
-![map2](C:\Programming\Unity\Game\Factorio\ImageGit\map4.jpg)
+![map2](https://github.com/Jomart02/Factorio_game_develop/blob/master/ImageGit/map4.jpg)
