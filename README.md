@@ -1,13 +1,7 @@
----
-
----
 ## Factorio game 
 ### Ссылки 
-----
-#### [World](obsidian://open?vault=Md&file=Factorio%2FREADME_World) - генерация мира
+#### [World](https://github.com/Jomart02/Factorio_game_develop/blob/master/README_World.md) - генерация мира
 #### [ControlCamera]() - управление камерой
-
----------
 
 ### Содержание
 ---
